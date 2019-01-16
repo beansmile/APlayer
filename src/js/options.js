@@ -7,6 +7,7 @@ export default (options) => {
         fixed: false,
         autoplay: false,
         mutex: true,
+        lrcLineHeight: 16,
         lrcType: options.showlrc || options.lrc || 0,
         preload: 'metadata',
         theme: '#b7daff',

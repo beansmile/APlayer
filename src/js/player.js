@@ -79,6 +79,7 @@ class APlayer {
             this.lrc = new Lrc({
                 container: this.template.lrc,
                 async: this.options.lrcType === 3,
+                lrcLineHeight: this.options.lrcLineHeight,
                 player: this,
             });
         }

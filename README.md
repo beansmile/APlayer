@@ -122,3 +122,7 @@ Recurring pledges come with exclusive perks, e.g. having your name or your compa
 Authored and maintained by DIYgod with help from contributors ([list](https://github.com/DIYgod/APlayer/contributors)).
 
 > [Blog](https://diygod.me) · GitHub [@DIYgod](https://github.com/DIYgod) · Twitter [@DIYgod](https://twitter.com/DIYgod) · Telegram Channel [@awesomeDIYgod](https://t.me/awesomeDIYgod)
+
+## beansmile
+- 新增 lrcLineHeight 属性，歌词行高 默认 16
+
