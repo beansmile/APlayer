@@ -1,5 +1,3 @@
-import Promise from 'promise-polyfill';
-
 import utils from './utils';
 import Icons from './icons';
 import handleOption from './options';
@@ -26,7 +24,7 @@ class APlayer {
         this.options = handleOption(options);
         this.container = this.options.container;
         this.paused = true;
-        this.playedPromise = Promise.resolve();
+        this.playedPromise = window.Promise.resolve();
         this.mode = 'normal';
 
         this.randomOrder = utils.randomOrder(this.options.audio.length);
